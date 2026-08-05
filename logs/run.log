@@ -1,0 +1,417 @@
+[2026-08-04 04:55:20] --- Inicio de ejecución ---
+[2026-08-04 04:55:20] ERROR: Call to undefined function str_starts_with() en /home/chiledao/public_html/losinmortales.chiledao.cl/autoload.php:5
+[2026-08-04 04:55:20] --- Fin de ejecución (con error) ---
+[2026-08-04 04:56:55] ==============================================
+[2026-08-04 04:56:55] INICIO RUN_PROVISIONING
+[2026-08-04 04:56:55] ==============================================
+[2026-08-04 04:56:55] Paso 1: Cargando autoload...
+[2026-08-04 04:56:55] ✔ Autoload OK
+[2026-08-04 04:56:55] Paso 2: Cargando config.php...
+[2026-08-04 04:56:55] ✔ config.php OK
+[2026-08-04 04:56:55] Paso 3: Cargando .env...
+[2026-08-04 04:56:55] 
+[2026-08-04 04:56:55] ##############################################
+[2026-08-04 04:56:55] ERROR GENERAL
+[2026-08-04 04:56:55] ##############################################
+[2026-08-04 04:56:55] Mensaje:
+[2026-08-04 04:56:55] Call to undefined function str_starts_with()
+[2026-08-04 04:56:55] Archivo:
+[2026-08-04 04:56:55] /home/chiledao/public_html/losinmortales.chiledao.cl/autoload.php
+[2026-08-04 04:56:55] Línea:
+[2026-08-04 04:56:55] 5
+[2026-08-04 04:56:55] Trace:
+[2026-08-04 04:56:55] #0 [internal function]: {closure}('LosInmortales\\E...')
+#1 /home/chiledao/public_html/losinmortales.chiledao.cl/run_provisioning.php(96): spl_autoload_call('LosInmortales\\E...')
+#2 {main}
+[2026-08-04 04:59:40] ==============================================
+[2026-08-04 04:59:40] INICIO RUN_PROVISIONING
+[2026-08-04 04:59:40] ==============================================
+[2026-08-04 04:59:40] Paso 1: Cargando autoload...
+[2026-08-04 04:59:40] ✔ Autoload OK
+[2026-08-04 04:59:40] Paso 2: Cargando config.php...
+[2026-08-04 04:59:40] ✔ config.php OK
+[2026-08-04 04:59:40] Paso 3: Cargando .env...
+[2026-08-04 04:59:40] 
+[2026-08-04 04:59:40] ##############################################
+[2026-08-04 04:59:40] ERROR GENERAL
+[2026-08-04 04:59:40] ##############################################
+[2026-08-04 04:59:40] Mensaje:
+[2026-08-04 04:59:40] Call to undefined function LosInmortales\EmailProvisioner\str_starts_with()
+[2026-08-04 04:59:40] Archivo:
+[2026-08-04 04:59:40] /home/chiledao/public_html/losinmortales.chiledao.cl/modules/EmailProvisioner/Config.php
+[2026-08-04 04:59:40] Línea:
+[2026-08-04 04:59:40] 29
+[2026-08-04 04:59:40] Trace:
+[2026-08-04 04:59:40] #0 /home/chiledao/public_html/losinmortales.chiledao.cl/run_provisioning.php(96): LosInmortales\EmailProvisioner\Config::load('/home/chiledao/...')
+#1 {main}
+[2026-08-04 04:59:42] ==============================================
+[2026-08-04 04:59:42] INICIO RUN_PROVISIONING
+[2026-08-04 04:59:42] ==============================================
+[2026-08-04 04:59:42] Paso 1: Cargando autoload...
+[2026-08-04 04:59:42] ✔ Autoload OK
+[2026-08-04 04:59:42] Paso 2: Cargando config.php...
+[2026-08-04 04:59:42] ✔ config.php OK
+[2026-08-04 04:59:42] Paso 3: Cargando .env...
+[2026-08-04 04:59:42] 
+[2026-08-04 04:59:42] ##############################################
+[2026-08-04 04:59:42] ERROR GENERAL
+[2026-08-04 04:59:42] ##############################################
+[2026-08-04 04:59:42] Mensaje:
+[2026-08-04 04:59:42] Call to undefined function LosInmortales\EmailProvisioner\str_starts_with()
+[2026-08-04 04:59:42] Archivo:
+[2026-08-04 04:59:42] /home/chiledao/public_html/losinmortales.chiledao.cl/modules/EmailProvisioner/Config.php
+[2026-08-04 04:59:42] Línea:
+[2026-08-04 04:59:42] 29
+[2026-08-04 04:59:42] Trace:
+[2026-08-04 04:59:42] #0 /home/chiledao/public_html/losinmortales.chiledao.cl/run_provisioning.php(96): LosInmortales\EmailProvisioner\Config::load('/home/chiledao/...')
+#1 {main}
+[2026-08-04 05:00:03] ==============================================
+[2026-08-04 05:00:03] INICIO RUN_PROVISIONING
+[2026-08-04 05:00:03] ==============================================
+[2026-08-04 05:00:03] Paso 1: Cargando autoload...
+[2026-08-04 05:00:03] ✔ Autoload OK
+[2026-08-04 05:00:03] Paso 2: Cargando config.php...
+[2026-08-04 05:00:03] ✔ config.php OK
+[2026-08-04 05:00:03] Paso 3: Cargando .env...
+[2026-08-04 05:00:03] 
+[2026-08-04 05:00:03] ##############################################
+[2026-08-04 05:00:03] ERROR GENERAL
+[2026-08-04 05:00:03] ##############################################
+[2026-08-04 05:00:03] Mensaje:
+[2026-08-04 05:00:03] Call to undefined function LosInmortales\EmailProvisioner\str_starts_with()
+[2026-08-04 05:00:03] Archivo:
+[2026-08-04 05:00:03] /home/chiledao/public_html/losinmortales.chiledao.cl/modules/EmailProvisioner/Config.php
+[2026-08-04 05:00:03] Línea:
+[2026-08-04 05:00:03] 29
+[2026-08-04 05:00:03] Trace:
+[2026-08-04 05:00:03] #0 /home/chiledao/public_html/losinmortales.chiledao.cl/run_provisioning.php(96): LosInmortales\EmailProvisioner\Config::load('/home/chiledao/...')
+#1 {main}
+[2026-08-04 05:00:03] ========== SHUTDOWN ==========
+[2026-08-04 05:00:03] Tipo: 8
+[2026-08-04 05:00:03] Mensaje: Undefined index: REMOTE_ADDR
+[2026-08-04 05:00:03] Archivo: /usr/local/bin/env.php
+[2026-08-04 05:00:03] Línea: 6
+[2026-08-04 05:03:06] ==============================================
+[2026-08-04 05:03:06] INICIO RUN_PROVISIONING
+[2026-08-04 05:03:06] ==============================================
+[2026-08-04 05:03:06] Paso 1: Cargando autoload...
+[2026-08-04 05:03:06] ✔ Autoload OK
+[2026-08-04 05:03:06] Paso 2: Cargando config.php...
+[2026-08-04 05:03:06] ✔ config.php OK
+[2026-08-04 05:03:06] Paso 3: Cargando .env...
+[2026-08-04 05:03:06] ✔ .env OK
+[2026-08-04 05:03:06] ----------------------------------------------
+[2026-08-04 05:03:06] CONFIGURACIÓN
+[2026-08-04 05:03:06] CPANEL_HOST: losinmortales.chiledao.cl
+[2026-08-04 05:03:06] CPANEL_USER: chiledao
+[2026-08-04 05:03:06] CPANEL_DOMAIN: chiledao.cl
+[2026-08-04 05:03:06] WEBMAIL_URL: https://webmail.chiledao.cl
+[2026-08-04 05:03:06] CPANEL_QUOTA_MB: 250
+[2026-08-04 05:03:06] CPANEL_TOKEN cargado: NO
+[2026-08-04 05:03:06] SMTP_HOST cargado: NO
+[2026-08-04 05:03:06] SMTP_USER cargado: NO
+[2026-08-04 05:03:06] SMTP_PASSWORD cargado: NO
+[2026-08-04 05:03:06] ----------------------------------------------
+[2026-08-04 05:03:06] Paso 4: Creando Logger...
+[2026-08-04 05:03:06] ✔ Logger OK
+[2026-08-04 05:03:06] Paso 5: Creando Repository...
+[2026-08-04 05:03:06] ✔ Repository OK
+[2026-08-04 05:03:06] Paso 6: Creando CPanelClient...
+[2026-08-04 05:03:06] ✔ CPanelClient OK
+[2026-08-04 05:03:06] Paso 7: Creando MailSender...
+[2026-08-04 05:03:06] ✔ MailSender OK
+[2026-08-04 05:03:06] Paso 8: Construyendo EmailProvisioner...
+[2026-08-04 05:03:06] 
+[2026-08-04 05:03:06] ##############################################
+[2026-08-04 05:03:06] ERROR GENERAL
+[2026-08-04 05:03:06] ##############################################
+[2026-08-04 05:03:06] Mensaje:
+[2026-08-04 05:03:06] syntax error, unexpected 'private' (T_PRIVATE), expecting variable (T_VARIABLE)
+[2026-08-04 05:03:06] Archivo:
+[2026-08-04 05:03:06] /home/chiledao/public_html/losinmortales.chiledao.cl/modules/EmailProvisioner/EmailProvisioner.php
+[2026-08-04 05:03:06] Línea:
+[2026-08-04 05:03:06] 13
+[2026-08-04 05:03:06] Trace:
+[2026-08-04 05:03:06] #0 [internal function]: {closure}('LosInmortales\\E...')
+#1 /home/chiledao/public_html/losinmortales.chiledao.cl/run_provisioning.php(133): spl_autoload_call('LosInmortales\\E...')
+#2 {main}
+[2026-08-04 05:05:03] ==============================================
+[2026-08-04 05:05:03] INICIO RUN_PROVISIONING
+[2026-08-04 05:05:03] ==============================================
+[2026-08-04 05:05:03] Paso 1: Cargando autoload...
+[2026-08-04 05:05:03] ✔ Autoload OK
+[2026-08-04 05:05:03] Paso 2: Cargando config.php...
+[2026-08-04 05:05:03] ✔ config.php OK
+[2026-08-04 05:05:03] Paso 3: Cargando .env...
+[2026-08-04 05:05:03] ✔ .env OK
+[2026-08-04 05:05:03] ----------------------------------------------
+[2026-08-04 05:05:03] CONFIGURACIÓN
+[2026-08-04 05:05:03] CPANEL_HOST: losinmortales.chiledao.cl
+[2026-08-04 05:05:03] CPANEL_USER: chiledao
+[2026-08-04 05:05:03] CPANEL_DOMAIN: chiledao.cl
+[2026-08-04 05:05:03] WEBMAIL_URL: https://webmail.chiledao.cl
+[2026-08-04 05:05:03] CPANEL_QUOTA_MB: 250
+[2026-08-04 05:05:03] CPANEL_TOKEN cargado: NO
+[2026-08-04 05:05:03] SMTP_HOST cargado: NO
+[2026-08-04 05:05:03] SMTP_USER cargado: NO
+[2026-08-04 05:05:03] SMTP_PASSWORD cargado: NO
+[2026-08-04 05:05:03] ----------------------------------------------
+[2026-08-04 05:05:03] Paso 4: Creando Logger...
+[2026-08-04 05:05:03] ✔ Logger OK
+[2026-08-04 05:05:03] Paso 5: Creando Repository...
+[2026-08-04 05:05:03] ✔ Repository OK
+[2026-08-04 05:05:03] Paso 6: Creando CPanelClient...
+[2026-08-04 05:05:03] ✔ CPanelClient OK
+[2026-08-04 05:05:03] Paso 7: Creando MailSender...
+[2026-08-04 05:05:03] ✔ MailSender OK
+[2026-08-04 05:05:03] Paso 8: Construyendo EmailProvisioner...
+[2026-08-04 05:05:03] 
+[2026-08-04 05:05:03] ##############################################
+[2026-08-04 05:05:03] ERROR GENERAL
+[2026-08-04 05:05:03] ##############################################
+[2026-08-04 05:05:03] Mensaje:
+[2026-08-04 05:05:03] syntax error, unexpected 'private' (T_PRIVATE), expecting variable (T_VARIABLE)
+[2026-08-04 05:05:03] Archivo:
+[2026-08-04 05:05:03] /home/chiledao/public_html/losinmortales.chiledao.cl/modules/EmailProvisioner/EmailProvisioner.php
+[2026-08-04 05:05:03] Línea:
+[2026-08-04 05:05:03] 13
+[2026-08-04 05:05:03] Trace:
+[2026-08-04 05:05:03] #0 [internal function]: {closure}('LosInmortales\\E...')
+#1 /home/chiledao/public_html/losinmortales.chiledao.cl/run_provisioning.php(133): spl_autoload_call('LosInmortales\\E...')
+#2 {main}
+[2026-08-04 05:05:03] ========== SHUTDOWN ==========
+[2026-08-04 05:05:03] Tipo: 8
+[2026-08-04 05:05:03] Mensaje: Undefined index: REMOTE_ADDR
+[2026-08-04 05:05:03] Archivo: /usr/local/bin/env.php
+[2026-08-04 05:05:03] Línea: 6
+[2026-08-04 05:10:03] ==============================================
+[2026-08-04 05:10:03] INICIO RUN_PROVISIONING
+[2026-08-04 05:10:03] ==============================================
+[2026-08-04 05:10:03] Paso 1: Cargando autoload...
+[2026-08-04 05:10:03] ✔ Autoload OK
+[2026-08-04 05:10:03] Paso 2: Cargando config.php...
+[2026-08-04 05:10:03] ✔ config.php OK
+[2026-08-04 05:10:03] Paso 3: Cargando .env...
+[2026-08-04 05:10:03] ✔ .env OK
+[2026-08-04 05:10:03] ----------------------------------------------
+[2026-08-04 05:10:03] CONFIGURACIÓN
+[2026-08-04 05:10:03] CPANEL_HOST: losinmortales.chiledao.cl
+[2026-08-04 05:10:03] CPANEL_USER: chiledao
+[2026-08-04 05:10:03] CPANEL_DOMAIN: chiledao.cl
+[2026-08-04 05:10:03] WEBMAIL_URL: https://webmail.chiledao.cl
+[2026-08-04 05:10:03] CPANEL_QUOTA_MB: 250
+[2026-08-04 05:10:03] CPANEL_TOKEN cargado: NO
+[2026-08-04 05:10:03] SMTP_HOST cargado: NO
+[2026-08-04 05:10:03] SMTP_USER cargado: NO
+[2026-08-04 05:10:03] SMTP_PASSWORD cargado: NO
+[2026-08-04 05:10:03] ----------------------------------------------
+[2026-08-04 05:10:03] Paso 4: Creando Logger...
+[2026-08-04 05:10:03] ✔ Logger OK
+[2026-08-04 05:10:03] Paso 5: Creando Repository...
+[2026-08-04 05:10:03] ✔ Repository OK
+[2026-08-04 05:10:03] Paso 6: Creando CPanelClient...
+[2026-08-04 05:10:03] ✔ CPanelClient OK
+[2026-08-04 05:10:03] Paso 7: Creando MailSender...
+[2026-08-04 05:10:03] ✔ MailSender OK
+[2026-08-04 05:10:03] Paso 8: Construyendo EmailProvisioner...
+[2026-08-04 05:10:03] ✔ EmailProvisioner OK
+[2026-08-04 05:10:03] ----------------------------------------------
+[2026-08-04 05:10:03] Paso 9: Buscando expedientes pendientes...
+[2026-08-04 05:10:03] Cantidad encontrada: 2
+[2026-08-04 05:10:03] 
+[2026-08-04 05:10:03] ==============================================
+[2026-08-04 05:10:03] SOLICITUD #1
+[2026-08-04 05:10:03] ==============================================
+[2026-08-04 05:10:03] guid = 'a561cad1-5a3d-4bc1-aace-b53ca523846a'
+[2026-08-04 05:10:03] email = 'alphadocere@gmail.com'
+[2026-08-04 05:10:03] timestamp = '2026-08-04 02:03:25'
+[2026-08-04 05:10:03] status = 'en_gestion'
+[2026-08-04 05:10:03] ip = '186.104.182.76'
+[2026-08-04 05:10:03] expires_at = '2026-11-02 02:05:44'
+[2026-08-04 05:10:03] Ejecutando procesar()...
+[2026-08-04 05:10:09] procesar() retornó: true
+[2026-08-04 05:10:09] Fin solicitud #1
+[2026-08-04 05:10:09] 
+[2026-08-04 05:10:09] ==============================================
+[2026-08-04 05:10:09] SOLICITUD #2
+[2026-08-04 05:10:09] ==============================================
+[2026-08-04 05:10:09] guid = 'da07c058-7918-469a-806a-c29b9b440d5d'
+[2026-08-04 05:10:09] email = 'dev.manosya@gmail.com'
+[2026-08-04 05:10:09] timestamp = '2026-08-04 03:58:44'
+[2026-08-04 05:10:09] status = 'en_gestion'
+[2026-08-04 05:10:09] ip = '186.104.182.76'
+[2026-08-04 05:10:09] expires_at = '2026-11-02 04:00:20'
+[2026-08-04 05:10:09] Ejecutando procesar()...
+[2026-08-04 05:10:15] procesar() retornó: true
+[2026-08-04 05:10:15] Fin solicitud #2
+[2026-08-04 05:10:15] 
+[2026-08-04 05:10:15] ==============================================
+[2026-08-04 05:10:15] RESUMEN
+[2026-08-04 05:10:15] ==============================================
+[2026-08-04 05:10:15] Pendientes: 2
+[2026-08-04 05:10:15] Exitosos : 2
+[2026-08-04 05:10:15] Fallidos : 0
+[2026-08-04 05:10:15] FIN CORRECTO
+[2026-08-04 05:10:15] ========== SHUTDOWN ==========
+[2026-08-04 05:10:15] Tipo: 8
+[2026-08-04 05:10:15] Mensaje: Undefined index: REMOTE_ADDR
+[2026-08-04 05:10:15] Archivo: /usr/local/bin/env.php
+[2026-08-04 05:10:15] Línea: 6
+[2026-08-04 05:10:53] ==============================================
+[2026-08-04 05:10:53] INICIO RUN_PROVISIONING
+[2026-08-04 05:10:53] ==============================================
+[2026-08-04 05:10:53] Paso 1: Cargando autoload...
+[2026-08-04 05:10:53] ✔ Autoload OK
+[2026-08-04 05:10:53] Paso 2: Cargando config.php...
+[2026-08-04 05:10:53] ✔ config.php OK
+[2026-08-04 05:10:53] Paso 3: Cargando .env...
+[2026-08-04 05:10:53] ✔ .env OK
+[2026-08-04 05:10:53] ----------------------------------------------
+[2026-08-04 05:10:53] CONFIGURACIÓN
+[2026-08-04 05:10:53] CPANEL_HOST: losinmortales.chiledao.cl
+[2026-08-04 05:10:53] CPANEL_USER: chiledao
+[2026-08-04 05:10:53] CPANEL_DOMAIN: chiledao.cl
+[2026-08-04 05:10:53] WEBMAIL_URL: https://webmail.chiledao.cl
+[2026-08-04 05:10:53] CPANEL_QUOTA_MB: 250
+[2026-08-04 05:10:53] CPANEL_TOKEN cargado: NO
+[2026-08-04 05:10:53] SMTP_HOST cargado: NO
+[2026-08-04 05:10:53] SMTP_USER cargado: NO
+[2026-08-04 05:10:53] SMTP_PASSWORD cargado: NO
+[2026-08-04 05:10:53] ----------------------------------------------
+[2026-08-04 05:10:53] Paso 4: Creando Logger...
+[2026-08-04 05:10:53] ✔ Logger OK
+[2026-08-04 05:10:53] Paso 5: Creando Repository...
+[2026-08-04 05:10:53] ✔ Repository OK
+[2026-08-04 05:10:53] Paso 6: Creando CPanelClient...
+[2026-08-04 05:10:53] ✔ CPanelClient OK
+[2026-08-04 05:10:53] Paso 7: Creando MailSender...
+[2026-08-04 05:10:53] ✔ MailSender OK
+[2026-08-04 05:10:53] Paso 8: Construyendo EmailProvisioner...
+[2026-08-04 05:10:53] ✔ EmailProvisioner OK
+[2026-08-04 05:10:53] ----------------------------------------------
+[2026-08-04 05:10:53] Paso 9: Buscando expedientes pendientes...
+[2026-08-04 05:10:53] Cantidad encontrada: 0
+[2026-08-04 05:10:53] No existen expedientes pendientes.
+[2026-08-04 05:10:53] FIN
+[2026-08-05 18:58:26] ==============================================
+[2026-08-05 18:58:26] INICIO RUN_PROVISIONING
+[2026-08-05 18:58:26] ==============================================
+[2026-08-05 18:58:26] Paso 1: Cargando autoload...
+[2026-08-05 18:58:26] ✔ Autoload OK
+[2026-08-05 18:58:26] Paso 2: Cargando config.php...
+[2026-08-05 18:58:26] ✔ config.php OK
+[2026-08-05 18:58:26] Paso 3: Cargando .env...
+[2026-08-05 18:58:26] ✔ .env OK
+[2026-08-05 18:58:26] ----------------------------------------------
+[2026-08-05 18:58:26] CONFIGURACIÓN
+[2026-08-05 18:58:26] CPANEL_HOST: losinmortales.chiledao.cl
+[2026-08-05 18:58:26] CPANEL_USER: chiledao
+[2026-08-05 18:58:26] CPANEL_DOMAIN: chiledao.cl
+[2026-08-05 18:58:26] WEBMAIL_URL: https://webmail.chiledao.cl
+[2026-08-05 18:58:26] CPANEL_QUOTA_MB: 250
+[2026-08-05 18:58:26] CPANEL_TOKEN cargado: NO
+[2026-08-05 18:58:26] SMTP_HOST cargado: NO
+[2026-08-05 18:58:26] SMTP_USER cargado: NO
+[2026-08-05 18:58:26] SMTP_PASSWORD cargado: NO
+[2026-08-05 18:58:26] ----------------------------------------------
+[2026-08-05 18:58:26] Paso 4: Creando Logger...
+[2026-08-05 18:58:26] ✔ Logger OK
+[2026-08-05 18:58:26] Paso 5: Creando Repository...
+[2026-08-05 18:58:26] ✔ Repository OK
+[2026-08-05 18:58:26] Paso 6: Creando CPanelClient...
+[2026-08-05 18:58:26] ✔ CPanelClient OK
+[2026-08-05 18:58:26] Paso 7: Creando MailSender...
+[2026-08-05 18:58:26] ✔ MailSender OK
+[2026-08-05 18:58:26] Paso 8: Construyendo EmailProvisioner...
+[2026-08-05 18:58:26] ✔ EmailProvisioner OK
+[2026-08-05 18:58:26] ----------------------------------------------
+[2026-08-05 18:58:26] Paso 9: Buscando expedientes pendientes...
+[2026-08-05 18:58:26] Cantidad encontrada: 3
+[2026-08-05 18:58:26] 
+[2026-08-05 18:58:26] ==============================================
+[2026-08-05 18:58:26] SOLICITUD #1
+[2026-08-05 18:58:26] ==============================================
+[2026-08-05 18:58:26] guid = '8b871e63-3188-477d-9301-a832a69e7da7'
+[2026-08-05 18:58:26] email = 'ctacompartida.dev.backup@gmail.com'
+[2026-08-05 18:58:26] timestamp = '2026-08-04 05:31:36'
+[2026-08-05 18:58:26] status = 'en_gestion'
+[2026-08-05 18:58:26] ip = '186.104.182.76'
+[2026-08-05 18:58:26] expires_at = '2026-11-02 05:32:39'
+[2026-08-05 18:58:26] Ejecutando procesar()...
+[2026-08-05 18:58:29] procesar() retornó: true
+[2026-08-05 18:58:29] Fin solicitud #1
+[2026-08-05 18:58:29] 
+[2026-08-05 18:58:29] ==============================================
+[2026-08-05 18:58:29] SOLICITUD #2
+[2026-08-05 18:58:29] ==============================================
+[2026-08-05 18:58:29] guid = 'bf615ab0-adeb-4b66-a189-5a3f3792a3a7'
+[2026-08-05 18:58:29] email = 'alphadocere@gmail.com'
+[2026-08-05 18:58:29] timestamp = '2026-08-04 05:57:15'
+[2026-08-05 18:58:29] status = 'en_gestion'
+[2026-08-05 18:58:29] ip = '186.104.182.76'
+[2026-08-05 18:58:29] expires_at = '2026-11-02 05:58:05'
+[2026-08-05 18:58:29] Ejecutando procesar()...
+[2026-08-05 18:58:32] procesar() retornó: true
+[2026-08-05 18:58:32] Fin solicitud #2
+[2026-08-05 18:58:32] 
+[2026-08-05 18:58:32] ==============================================
+[2026-08-05 18:58:32] SOLICITUD #3
+[2026-08-05 18:58:32] ==============================================
+[2026-08-05 18:58:32] guid = 'bb6e1b8a-817a-471f-a317-63715a3c3d14'
+[2026-08-05 18:58:32] email = 'gon@chiledao.cl'
+[2026-08-05 18:58:32] timestamp = '2026-08-05 18:39:11'
+[2026-08-05 18:58:32] status = 'en_gestion'
+[2026-08-05 18:58:32] ip = '181.42.209.32'
+[2026-08-05 18:58:32] expires_at = '2026-11-03 18:48:01'
+[2026-08-05 18:58:32] Ejecutando procesar()...
+[2026-08-05 18:58:34] procesar() retornó: true
+[2026-08-05 18:58:34] Fin solicitud #3
+[2026-08-05 18:58:34] 
+[2026-08-05 18:58:34] ==============================================
+[2026-08-05 18:58:34] RESUMEN
+[2026-08-05 18:58:34] ==============================================
+[2026-08-05 18:58:34] Pendientes: 3
+[2026-08-05 18:58:34] Exitosos : 3
+[2026-08-05 18:58:34] Fallidos : 0
+[2026-08-05 18:58:34] FIN CORRECTO
+[2026-08-05 19:00:03] ==============================================
+[2026-08-05 19:00:03] INICIO RUN_PROVISIONING
+[2026-08-05 19:00:03] ==============================================
+[2026-08-05 19:00:03] Paso 1: Cargando autoload...
+[2026-08-05 19:00:03] ✔ Autoload OK
+[2026-08-05 19:00:03] Paso 2: Cargando config.php...
+[2026-08-05 19:00:03] ✔ config.php OK
+[2026-08-05 19:00:03] Paso 3: Cargando .env...
+[2026-08-05 19:00:03] ✔ .env OK
+[2026-08-05 19:00:03] ----------------------------------------------
+[2026-08-05 19:00:03] CONFIGURACIÓN
+[2026-08-05 19:00:03] CPANEL_HOST: losinmortales.chiledao.cl
+[2026-08-05 19:00:03] CPANEL_USER: chiledao
+[2026-08-05 19:00:03] CPANEL_DOMAIN: chiledao.cl
+[2026-08-05 19:00:03] WEBMAIL_URL: https://webmail.chiledao.cl
+[2026-08-05 19:00:03] CPANEL_QUOTA_MB: 250
+[2026-08-05 19:00:03] CPANEL_TOKEN cargado: NO
+[2026-08-05 19:00:03] SMTP_HOST cargado: NO
+[2026-08-05 19:00:03] SMTP_USER cargado: NO
+[2026-08-05 19:00:03] SMTP_PASSWORD cargado: NO
+[2026-08-05 19:00:03] ----------------------------------------------
+[2026-08-05 19:00:03] Paso 4: Creando Logger...
+[2026-08-05 19:00:03] ✔ Logger OK
+[2026-08-05 19:00:03] Paso 5: Creando Repository...
+[2026-08-05 19:00:03] ✔ Repository OK
+[2026-08-05 19:00:03] Paso 6: Creando CPanelClient...
+[2026-08-05 19:00:03] ✔ CPanelClient OK
+[2026-08-05 19:00:03] Paso 7: Creando MailSender...
+[2026-08-05 19:00:03] ✔ MailSender OK
+[2026-08-05 19:00:03] Paso 8: Construyendo EmailProvisioner...
+[2026-08-05 19:00:03] ✔ EmailProvisioner OK
+[2026-08-05 19:00:03] ----------------------------------------------
+[2026-08-05 19:00:03] Paso 9: Buscando expedientes pendientes...
+[2026-08-05 19:00:03] Cantidad encontrada: 0
+[2026-08-05 19:00:03] No existen expedientes pendientes.
+[2026-08-05 19:00:03] FIN
+[2026-08-05 19:00:03] ========== SHUTDOWN ==========
+[2026-08-05 19:00:03] Tipo: 8
+[2026-08-05 19:00:03] Mensaje: Undefined index: REMOTE_ADDR
+[2026-08-05 19:00:03] Archivo: /usr/local/bin/env.php
+[2026-08-05 19:00:03] Línea: 6

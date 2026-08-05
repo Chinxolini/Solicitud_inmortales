@@ -1,0 +1,166 @@
+[
+    {
+        "guid": "a561cad1-5a3d-4bc1-aace-b53ca523846a",
+        "email": "alphadocere@gmail.com",
+        "timestamp": "2026-08-04 02:03:25",
+        "status": "correo_creado",
+        "ip": "186.104.182.76",
+        "expires_at": "2026-11-02 02:05:44",
+        "detalle": {
+            "nombre": "Mauro Nicolás Rojas Vivanco",
+            "run": "16743561-0",
+            "telefono": "+569 999 999",
+            "centros": [
+                "Hospital Barros Luco",
+                "Hospital las esperanzas",
+                "hospital salvador"
+            ],
+            "periodo": "últimos 3 años"
+        },
+        "mandato": {
+            "texto": "Mediante este acto, yo, Mauro Nicolás Rojas Vivanco, RUN 16743561-0, en mi calidad de titular de la ficha clínica, otorgo mandato simple a \"Los Inmortales\" para que, en mi representación y por un plazo máximo de 3 meses desde esta fecha, solicite ante los siguientes centros de salud: Hospital Barros Luco, Hospital las esperanzas, hospital salvador, copia de mi ficha clínica y antecedentes médicos correspondientes al período: últimos 3 años, conforme a los artículos 12 y 13 de la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes. Declaro haber sido informado(a) de que: (1) se me asignará un correo de dominio privado exclusivo para el seguimiento de este caso; (2) mis datos serán procesados en un panel seguro accesible solo por representantes de salud habilitados; y (3) mis antecedentes serán eliminados de forma automática e irreversible transcurridos 90 días desde el término del mandato.",
+            "firma": "Mauro Nicolás Rojas Vivanco",
+            "firmado_en": "2026-08-04 02:05:44",
+            "ip": "186.104.182.76",
+            "cedula_path": "a561cad1-5a3d-4bc1-aace-b53ca523846a.png"
+        },
+        "correo": {
+            "usuario": "alphadocere",
+            "direccion": "alphadocere@chiledao.cl",
+            "password_temporal": "Evr#wWP3hK#Rr6!^",
+            "creado_en": "2026-08-04 05:10:09",
+            "correo_enviado": true,
+            "fecha_envio": "2026-08-04 05:10:09"
+        }
+    },
+    {
+        "guid": "da07c058-7918-469a-806a-c29b9b440d5d",
+        "email": "dev.manosya@gmail.com",
+        "timestamp": "2026-08-04 03:58:44",
+        "status": "correo_creado",
+        "ip": "186.104.182.76",
+        "expires_at": "2026-11-02 04:00:20",
+        "detalle": {
+            "nombre": "Nicolás Vivanco",
+            "run": "16452659-9",
+            "telefono": "9999999",
+            "centros": [
+                "Hospital el Pino"
+            ],
+            "periodo": "últimos 2 años"
+        },
+        "mandato": {
+            "texto": "Mediante este acto, yo, Nicolás Vivanco, RUN 16452659-9, en mi calidad de titular de la ficha clínica, otorgo mandato simple a \"Los Inmortales\" para que, en mi representación y por un plazo máximo de 3 meses desde esta fecha, solicite ante los siguientes centros de salud: Hospital el Pino, copia de mi ficha clínica y antecedentes médicos correspondientes al período: últimos 2 años, conforme a los artículos 12 y 13 de la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes. Declaro haber sido informado(a) de que: (1) se me asignará un correo de dominio privado exclusivo para el seguimiento de este caso; (2) mis datos serán procesados en un panel seguro accesible solo por representantes de salud habilitados; y (3) mis antecedentes serán eliminados de forma automática e irreversible transcurridos 90 días desde el término del mandato.",
+            "firma": "Nicolás Vivanco",
+            "firmado_en": "2026-08-04 04:00:20",
+            "ip": "186.104.182.76",
+            "cedula_path": "da07c058-7918-469a-806a-c29b9b440d5d.png"
+        },
+        "correo": {
+            "usuario": "dev.manosya",
+            "direccion": "dev.manosya@chiledao.cl",
+            "password_temporal": "az7yHPn@MXd9K@Hu",
+            "creado_en": "2026-08-04 05:10:15",
+            "correo_enviado": true,
+            "fecha_envio": "2026-08-04 05:10:15"
+        }
+    },
+    {
+        "guid": "8b871e63-3188-477d-9301-a832a69e7da7",
+        "email": "ctacompartida.dev.backup@gmail.com",
+        "timestamp": "2026-08-04 05:31:36",
+        "status": "correo_creado",
+        "ip": "186.104.182.76",
+        "expires_at": "2026-11-02 05:32:39",
+        "detalle": {
+            "nombre": "Juan Diaz",
+            "run": "12345678-9",
+            "telefono": "9998799987",
+            "centros": [
+                "Hospital del trabajador"
+            ],
+            "periodo": "enero del 2025"
+        },
+        "mandato": {
+            "texto": "Mediante este acto, yo, Juan Diaz, RUN 12345678-9, en mi calidad de titular de la ficha clínica, otorgo mandato simple a \"Los Inmortales\" para que, en mi representación y por un plazo máximo de 3 meses desde esta fecha, solicite ante los siguientes centros de salud: Hospital del trabajador, copia de mi ficha clínica y antecedentes médicos correspondientes al período: enero del 2025, conforme a los artículos 12 y 13 de la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes. Declaro haber sido informado(a) de que: (1) se me asignará un correo de dominio privado exclusivo para el seguimiento de este caso; (2) mis datos serán procesados en un panel seguro accesible solo por representantes de salud habilitados; y (3) mis antecedentes serán eliminados de forma automática e irreversible transcurridos 90 días desde el término del mandato.",
+            "firma": "Juan Diaz",
+            "firmado_en": "2026-08-04 05:32:39",
+            "ip": "186.104.182.76",
+            "cedula_path": "8b871e63-3188-477d-9301-a832a69e7da7.jpg"
+        },
+        "correo": {
+            "usuario": "ctacompartida.dev.backup",
+            "direccion": "ctacompartida.dev.backup@chiledao.cl",
+            "password_temporal": "H##Vw4&F2k+z@vZv",
+            "creado_en": "2026-08-05 18:58:29",
+            "correo_enviado": true,
+            "fecha_envio": "2026-08-05 18:58:29"
+        }
+    },
+    {
+        "guid": "bf615ab0-adeb-4b66-a189-5a3f3792a3a7",
+        "email": "alphadocere@gmail.com",
+        "timestamp": "2026-08-04 05:57:15",
+        "status": "correo_creado",
+        "ip": "186.104.182.76",
+        "expires_at": "2026-11-02 05:58:05",
+        "detalle": {
+            "nombre": "rodrigo jerez",
+            "run": "16743461-6",
+            "telefono": "6666",
+            "centros": [
+                "sesfam"
+            ],
+            "periodo": "dos meses"
+        },
+        "mandato": {
+            "texto": "Mediante este acto, yo, rodrigo jerez, RUN 16743461-6, en mi calidad de titular de la ficha clínica, otorgo mandato simple a \"Los Inmortales\" para que, en mi representación y por un plazo máximo de 3 meses desde esta fecha, solicite ante los siguientes centros de salud: sesfam, copia de mi ficha clínica y antecedentes médicos correspondientes al período: dos meses, conforme a los artículos 12 y 13 de la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes. Declaro haber sido informado(a) de que: (1) se me asignará un correo de dominio privado exclusivo para el seguimiento de este caso; (2) mis datos serán procesados en un panel seguro accesible solo por representantes de salud habilitados; y (3) mis antecedentes serán eliminados de forma automática e irreversible transcurridos 90 días desde el término del mandato.",
+            "firma": "rodrigo jerez",
+            "firmado_en": "2026-08-04 05:58:05",
+            "ip": "186.104.182.76",
+            "cedula_path": "bf615ab0-adeb-4b66-a189-5a3f3792a3a7.jpg"
+        },
+        "correo": {
+            "usuario": "alphadocere2",
+            "direccion": "alphadocere2@chiledao.cl",
+            "password_temporal": "MWpQ=mB9A@UG^#u3",
+            "creado_en": "2026-08-05 18:58:32",
+            "correo_enviado": true,
+            "fecha_envio": "2026-08-05 18:58:32"
+        }
+    },
+    {
+        "guid": "bb6e1b8a-817a-471f-a317-63715a3c3d14",
+        "email": "gon@chiledao.cl",
+        "timestamp": "2026-08-05 18:39:11",
+        "status": "correo_creado",
+        "ip": "181.42.209.32",
+        "expires_at": "2026-11-03 18:48:01",
+        "detalle": {
+            "nombre": "Gonzalo campos",
+            "run": "19377051-7",
+            "telefono": "+569 99999",
+            "centros": [
+                "Hospital Barros Luco",
+                "Hospital las esperanzas",
+                "hospital salvador"
+            ],
+            "periodo": "15 años"
+        },
+        "mandato": {
+            "texto": "Mediante este acto, yo, Gonzalo campos, RUN 19377051-7, en mi calidad de titular de la ficha clínica, otorgo mandato simple a \"Los Inmortales\" para que, en mi representación y por un plazo máximo de 3 meses desde esta fecha, solicite ante los siguientes centros de salud: Hospital Barros Luco, Hospital las esperanzas, hospital salvador, copia de mi ficha clínica y antecedentes médicos correspondientes al período: 15 años, conforme a los artículos 12 y 13 de la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes. Declaro haber sido informado(a) de que: (1) se me asignará un correo de dominio privado exclusivo para el seguimiento de este caso; (2) mis datos serán procesados en un panel seguro accesible solo por representantes de salud habilitados; y (3) mis antecedentes serán eliminados de forma automática e irreversible transcurridos 90 días desde el término del mandato.",
+            "firma": "Gonzalo campos",
+            "firmado_en": "2026-08-05 18:48:01",
+            "ip": "181.42.209.32",
+            "cedula_path": "bb6e1b8a-817a-471f-a317-63715a3c3d14.jpg"
+        },
+        "correo": {
+            "usuario": "gon2",
+            "direccion": "gon2@chiledao.cl",
+            "password_temporal": "ZY6&J@NprPs3#FDm",
+            "creado_en": "2026-08-05 18:58:34",
+            "correo_enviado": true,
+            "fecha_envio": "2026-08-05 18:58:34"
+        }
+    }
+]

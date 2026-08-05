@@ -1,0 +1,28 @@
+[
+    {
+        "guid": "a561cad1-5a3d-4bc1-aace-b53ca523846a",
+        "email": "alphadocere@gmail.com",
+        "timestamp": "2026-08-04 02:03:25",
+        "status": "en_gestion",
+        "ip": "186.104.182.76",
+        "expires_at": "2026-11-02 02:05:44",
+        "detalle": {
+            "nombre": "Mauro Nicolás Rojas Vivanco",
+            "run": "16743561-0",
+            "telefono": "+569 999 999",
+            "centros": [
+                "Hospital Barros Luco",
+                "Hospital las esperanzas",
+                "hospital salvador"
+            ],
+            "periodo": "últimos 3 años"
+        },
+        "mandato": {
+            "texto": "Mediante este acto, yo, Mauro Nicolás Rojas Vivanco, RUN 16743561-0, en mi calidad de titular de la ficha clínica, otorgo mandato simple a \"Los Inmortales\" para que, en mi representación y por un plazo máximo de 3 meses desde esta fecha, solicite ante los siguientes centros de salud: Hospital Barros Luco, Hospital las esperanzas, hospital salvador, copia de mi ficha clínica y antecedentes médicos correspondientes al período: últimos 3 años, conforme a los artículos 12 y 13 de la Ley N° 20.584 sobre Derechos y Deberes de los Pacientes. Declaro haber sido informado(a) de que: (1) se me asignará un correo de dominio privado exclusivo para el seguimiento de este caso; (2) mis datos serán procesados en un panel seguro accesible solo por representantes de salud habilitados; y (3) mis antecedentes serán eliminados de forma automática e irreversible transcurridos 90 días desde el término del mandato.",
+            "firma": "Mauro Nicolás Rojas Vivanco",
+            "firmado_en": "2026-08-04 02:05:44",
+            "ip": "186.104.182.76",
+            "cedula_path": "a561cad1-5a3d-4bc1-aace-b53ca523846a.png"
+        }
+    }
+]
