@@ -129,15 +129,16 @@ function proyeccionEstado(array $req): array
 function proyeccionListado(array $req): array
 {
     return [
-        'guid'       => $req['guid'] ?? null,
-        'email'      => $req['email'] ?? null,
-        'nombre'     => $req['detalle']['nombre'] ?? null,
-        'centros'    => $req['detalle']['centros'] ?? [],
-        'periodo'    => $req['detalle']['periodo'] ?? null,
-        'status'     => $req['status'] ?? null,
-        'creado'     => $req['timestamp'] ?? null,
-        'expires_at' => $req['expires_at'] ?? null,
-        'direccion'  => $req['correo']['direccion'] ?? null,
+        'guid'            => $req['guid'] ?? null,
+        'email'           => $req['email'] ?? null,
+        'nombre'          => $req['detalle']['nombre'] ?? null,
+        'centros'         => $req['detalle']['centros'] ?? [],
+        'periodo'         => $req['detalle']['periodo'] ?? null,
+        'acompanamiento'  => $req['detalle']['acompanamiento'] ?? ['legal' => false, 'salud' => false],
+        'status'          => $req['status'] ?? null,
+        'creado'          => $req['timestamp'] ?? null,
+        'expires_at'      => $req['expires_at'] ?? null,
+        'direccion'       => $req['correo']['direccion'] ?? null,
     ];
 }
 
@@ -232,18 +233,36 @@ try {
                 out([], 'mandato_texto y firma son obligatorios', false, 400);
             }
 
+            // acompanamiento es opcional: si no viene (o viene mal formado), se guarda en
+            // false/false en vez de rechazar la solicitud completa por un campo accesorio.
+            $acompanamientoIn = $body['acompanamiento'] ?? null;
+            if (is_array($acompanamientoIn)
+                && array_key_exists('legal', $acompanamientoIn)
+                && array_key_exists('salud', $acompanamientoIn)
+                && is_bool($acompanamientoIn['legal'])
+                && is_bool($acompanamientoIn['salud'])
+            ) {
+                $acompanamiento = [
+                    'legal' => $acompanamientoIn['legal'],
+                    'salud' => $acompanamientoIn['salud'],
+                ];
+            } else {
+                $acompanamiento = ['legal' => false, 'salud' => false];
+            }
+
             $ip = $_SERVER['REMOTE_ADDR'] ?? 'desconocida';
 
             $entry = li_create_request($email, $ip);
 
             // Detalle mínimo: sin run, sin teléfono, sin cédula (no aplica en este flujo de agente).
             $detalle = [
-                'nombre'   => $nombre,
-                'run'      => null,
-                'telefono' => null,
-                'cedula'   => 'no aplica',
-                'centros'  => array_values($centros),
-                'periodo'  => $periodo,
+                'nombre'          => $nombre,
+                'run'             => null,
+                'telefono'        => null,
+                'cedula'          => 'no aplica',
+                'centros'         => array_values($centros),
+                'periodo'         => $periodo,
+                'acompanamiento'  => $acompanamiento,
             ];
 
             $mandato = [
@@ -480,7 +499,32 @@ TEXT;
                 break;
             }
 
-            out([], "tipo debe ser 'codigo' o 'acuerdo'", false, 400);
+            // Aviso genérico: el asunto y el cuerpo van tal cual los manda quien llama.
+            // Existe porque reusar 'acuerdo' para cualquier notificación le encajaba a todas
+            // el preámbulo del mandato ("Adjuntamos la copia del acuerdo que firmaste…"),
+            // que en un aviso de "tu Carpeta está lista" no viene al caso.
+            if ($tipo === 'aviso') {
+                $asunto = trim((string)($datos['asunto'] ?? ''));
+                $texto = trim((string)($datos['texto'] ?? ''));
+                if ($asunto === '' || mb_strlen($asunto) > 120) {
+                    out([], 'datos.asunto es obligatorio y admite hasta 120 caracteres', false, 400);
+                }
+                if ($texto === '') {
+                    out([], 'datos.texto no puede estar vacío', false, 400);
+                }
+                if (strlen($texto) > 12 * 1024) {
+                    out([], 'datos.texto supera el máximo permitido (12KB)', false, 400);
+                }
+                // Sin saltos de línea en el asunto: evita inyección de cabeceras.
+                $asunto = str_replace(["\r", "\n"], ' ', $asunto);
+
+                $cuerpo = $texto . "\n\n— Equipo Los Inmortales\n";
+                $enviado = enviarCorreoTexto($email, $asunto, $cuerpo);
+                out(['enviado' => $enviado]);
+                break;
+            }
+
+            out([], "tipo debe ser 'codigo', 'acuerdo' o 'aviso'", false, 400);
             break;
         }
 
